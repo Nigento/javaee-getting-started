@@ -90,8 +90,6 @@ public class Book {
         this.id = id;
     }
 
-    @Id
-    @GeneratedValue
     public Long getId() {
         return id;
     }
